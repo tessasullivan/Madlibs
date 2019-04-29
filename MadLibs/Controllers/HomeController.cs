@@ -6,7 +6,6 @@ namespace Madlibs.Controllers
   public class HomeController : Controller
   {
     [Route("/Madlibs")]
-    // public string Madlibs() { return "Hello World"; }
     public ActionResult Madlibs(string adj1, string adj2, string adj3, string adj4, 
     string adj5, string adj6, string adj7, string adj8, string noun1, string noun2, string verb1,
     string object1, string bodypart1, string bodypart2) 

@@ -5,15 +5,29 @@
         <meta charset="utf-8">
         <title>Madlibs input form</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="~/css/styles.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
-            <h1>All about the Force...</h1>
-            There is no power quite like the Force.  The Force is what gives a Jedi his @Model.GetAdj1() power.  It's an energy field created by all 
-            @Model.GetAdj2() 
-            @Model.GetNoun1().  
-            It binds the @Model.GetNoun2() together.  The Force can be used for good or @Model.GetAdj3().  The Dark Side is @Model.GetAdj4() and the @Model.GetAdj5() Side is good. The Force @Model.GetVerb1() a Jedi strong.  To use the Force requires willpower, discipline, and @Model.GetAdj6().  A person who is strong with the Force can move objects through the air with an outstretched @Model.GetBodyPart1() or read the thoughts in another person's @Model.GetBodyPart2().  It takes a lot of energy to do this.  Some people are born with a @Model.GetAdj7() connection to the Force.  It's a @Model.GetAdj8() compliment to say "May the @Model.GetObject1() be with you." 
+            <h1 class="madlib">All about the Force...</h1>
+            There is no power quite like the Force.  The Force is what gives a Jedi his 
+            <span class="madlib">@Model.GetAdj1()</span> power.  It's an energy field created by all 
+             <span class="madlib">@Model.GetAdj2()</span> 
+             <span class="madlib">@Model.GetNoun1()</span>.  
+            It binds the  
+            <span class="madlib">@Model.GetNoun2()</span> together.  
+            The Force can be used for good or  
+            <span class="madlib">@Model.GetAdj3()</span>.  The Dark Side is 
+            <span class="madlib">@Model.GetAdj4()</span> and the 
+            <span class="madlib">@Model.GetAdj5()</span> Side is good. The Force 
+            <span class="madlib">@Model.GetVerb1()</span> a Jedi strong.  To use the Force requires willpower, discipline, and 
+            <span class="madlib">@Model.GetAdj6()</span>.  A person who is strong with the Force can move objects through the air with an outstretched 
+            <span class="madlib">@Model.GetBodyPart1()</span> or read the thoughts in another person's 
+            <span class="madlib">@Model.GetBodyPart2()</span>.  It takes a lot of energy to do this.  Some people are born with a 
+            <span class="madlib">@Model.GetAdj7()</span> connection to the Force.  It's a 
+            <span class="madlib">@Model.GetAdj8()</span> compliment to say "May the 
+            <span class="madlib">@Model.GetObject1()</span> be with you." 
         </div>
     </body>
 </html>
