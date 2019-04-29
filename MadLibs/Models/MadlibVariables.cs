@@ -102,7 +102,7 @@ namespace Madlibs.Models
         }
         public void SetNoun2(string noun)
         {
-            _noun1 = noun;
+            _noun2 = noun;
         }
         public void SetVerb1(string verb)
         {
@@ -112,7 +112,7 @@ namespace Madlibs.Models
         {
             _bodypart1 = bodypart;
         }
-        public void SetBodyPart1(string bodypart)
+        public void SetBodyPart2(string bodypart)
         {
             _bodypart2 = bodypart;
         }

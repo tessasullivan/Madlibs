@@ -5,41 +5,43 @@
         <meta charset="utf-8">
         <title>Madlibs input form</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
+            <h1>Fill out form for Madlib fun</h1>
             <form action="/madlibs" method=post>
                 <label for="adj1">Adjective</label>
                 <input id="adj1" name="adj1" type="text">
                 <label for="adj2">Adjective</label>
-                <input id="adj2" name="adj2" type="text">
+                <input id="adj2" name="adj2" type="text"><br />
                 <label for="noun1">Noun</label>
                 <input id="noun1" name="noun1" type="text">            
                 <label for="noun2">Noun</label>
-                <input id="noun2" name="noun2" type="text">
+                <input id="noun2" name="noun2" type="text"><br />
 
                 <label for="adj3">Adjective</label>
                 <input id="adj3" name="adj3" type="text">
                 <label for="adj4">Adjective</label>
-                <input id="adj14" name="adj4" type="text">
+                <input id="adj14" name="adj4" type="text"><br />
                 <label for="adj15">Adjective</label>
                 <input id="adj15" name="adj15" type="text">
                 <label for="verb1">Verb</label>
-                <input id="verb1" name="verb1" type="text">
+                <input id="verb1" name="verb1" type="text"><br />
+
                 <label for="adj6">Adjective</label>
                 <input id="adj6" name="adj6" type="text">
-
                 <label for="bodypart1">Body Part</label>
-                <input id="bodypart1" name="bodypart1" type="text">
+                <input id="bodypart1" name="bodypart1" type="text"><br />
                 <label for="bodypart2">Body Part</label>
                 <input id="bodypart2" name="bodypart2" type="text">
-
                 <label for="adj7">Adjective</label>
-                <input id="adj7" name="adj7" type="text">
-                <label for="object1">Object</label>
-                <input id="object1" name="object1" type="text">
+                <input id="adj7" name="adj7" type="text"><br />
 
+                <label for="object1">Object</label>
+                <input id="object1" name="object1" type="text"><br />
+                <button id="submit" type="button" class="btn btn-info">Submit</button>
             </form>
         </div>
     </body>
