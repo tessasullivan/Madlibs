@@ -9,6 +9,7 @@ namespace Madlibs.Models
         private string _adj5;
         private string _adj6;
         private string _adj7;
+        private string _adj8;
         private string _noun1;
         private string _noun2;
         private string _verb1;
@@ -43,6 +44,10 @@ namespace Madlibs.Models
         public string GetAdj7()
         {
             return _adj7;
+        }
+        public string GetAdj8()
+        {
+            return _adj8;
         }
         public string GetNoun1()
         {
@@ -95,6 +100,10 @@ namespace Madlibs.Models
         public void SetAdj7(string adj)
         {
             _adj7 = adj;
+        }
+        public void SetAdj8(string adj)
+        {
+            _adj8 = adj;
         }
         public void SetNoun1(string noun)
         {
